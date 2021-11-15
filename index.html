@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card">
+    <div class="row__container">
+      <div class="row selected" data-price='13' data-plan='1'>
+        <div class="check__container">
+          <div class="circle"></div>
+          <div class="license">LICENSE PLAN #1</div>
+        </div>
+        <div class="price">$13 per license</div>
+      </div>
+      <div class="row" data-price='22' data-plan='2'>
+        <div class="check__container">
+          <div class="circle"></div>
+          <div class="license">LICENSE PLAN #2</div>
+        </div>
+        <div class="price">$22 per license</div>
+      </div>
+      <div class="row" data-price='34' data-plan='3'>
+        <div class="check__container">
+          <div class="circle"></div>
+          <div class="license">LICENSE PLAN #3</div>
+        </div>
+        <div class="price">$34 per license</div>
+      </div>
+    </div>
+    <div class="number__container">
+      <p class="number__text">Number of licenses:</p>
+      <div class="select">
+        <select>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+        </select>
+      </div>
+    </div>
+    <div class="total__container">
+      <div class="total__text">
+        TOTAL: <span class="total__text_blue">&#36 55</span><span class="total__text_us">US</span>
+      </div>
+      <div class="button">
+        BUY NOW
+      </div>
+    </div>
+    <div class="plan">Selected plan: #1</div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
